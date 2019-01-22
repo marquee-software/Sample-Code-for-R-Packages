@@ -6,6 +6,8 @@ library(XML)
 library(rebus)
 library(readxl)
 
+# Excluded URL File
+
 urlFILE <- read_excel("urlFILE.xlsx") %>%
     filter(crawl == 'Not Done')
 
