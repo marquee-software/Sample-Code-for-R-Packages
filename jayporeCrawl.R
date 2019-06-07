@@ -1,6 +1,5 @@
 library(jsonlite)
 library(tidyverse)
-library(readxl)
 
 # Save the JSON url in `jsonUrl`
 # To find the JSON url navigate to the category needed to scrape and open developer setting in chrome
